@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="icon" href="./Images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- SIDEBAR SECTION -->
+      <div class="sidebar">
+        <!-- NAV SECTION -->
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house nav-icon"></i>
+            <a class="nav-anchor" href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass nav-icon"></i>
+            <a class="nav-anchor" href="#">Search</a>
+          </div>
+        </div>
+        <!-- LIBRARY SECTION -->
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img
+                class="lib-img"
+                src="./Images/library_icon.png"
+                alt="Library image"
+              />
+              <a class="nav-anchor" href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus" style="color: white"></i>
+              <i class="fa-solid fa-arrow-right" style="color: white"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcast to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAIN-CONTENT SECTION -->
+      <div class="main-content">
+        <!-- STICKY NAV SECTION -->
+        <div class="sticky-nav">
+          <div class="sticky-nav-img">
+            <img
+              class="sticky-nav-images"
+              src="Images/backward_icon.png"
+              alt="Backward icon"
+            />
+            <img
+              class="sticky-nav-images hide"
+              src="Images/forward_icon.png"
+              alt="Forward icon"
+            />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down dark-badge-icon"></i>Install
+              App
+            </button>
+
+            <i class="fa-regular fa-user sticky-nav-icon"></i>
+          </div>
+        </div>
+
+        <!-- CARDS SECTION -->
+
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/card1img.jpeg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most played tracks...
+            </p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/card2img.jpeg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Mahiye Jinna Sohna</p>
+            <p class="card-info">Song - Darshan raval</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/card3img.jpeg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Mere Pass Tum Ho</p>
+            <p class="card-info">Song - Rahat Fateh Ali Khan</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/card4img.jpeg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Naa Ready(From "Leo")</p>
+            <p class="card-info">Song - Anirudh Ravichander</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/spotify img1.jpg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Heeriye</p>
+            <p class="card-info">Song - Arijit Singh</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/spotify img2.jpg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Chaleya(From "Jawan")</p>
+            <p class="card-info">Song - Arijit Singh</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/spotify img3.jpg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Kesariya(From "Brahmastra")</p>
+            <p class="card-info">Song - Pritam ft. Arijit Singh</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/spotify img4.jpg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Punya Paap</p>
+            <p class="card-info">Song - Divine</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/spotify img5.jpg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Glory</p>
+            <p class="card-info">Album - YO YO Honey Singh</p>
+          </div>
+        </div>
+
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/card5img.jpeg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Top Songs - Global</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right...
+            </p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/card6img.jpeg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Top Songs - India</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right...
+            </p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="Images/card1img.jpeg"
+              alt="Top 50 named banner"
+            />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right...
+            </p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <!-- MUSIC PLAYER SECTION -->
+      <div class="music-player">
+        <div class="left-player">
+          <div class="left-player-img">
+            <img
+              class="player-img"
+              src="Images/drake img.jpg"
+              alt="Drake poster"
+            />
+          </div>
+          <div class="song-info">
+            <p class="song-name">No Face</p>
+            <p class="singer-name">Drake</p>
+          </div>
+          <div class="song-icon">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="middle-player">
+          <div class="middle-player-controls">
+            <img
+              src="Images/player_icon1.png"
+              class="player-control-icon"
+              alt=""
+            />
+            <img
+              src="Images/player_icon2.png"
+              class="player-control-icon"
+              alt=""
+            />
+            <img
+              src="Images/player_icon3.png"
+              class="player-control-icon3"
+              alt=""
+            />
+            <img
+              src="Images/player_icon4.png"
+              class="player-control-icon"
+              alt=""
+            />
+            <img
+              src="Images/player_icon5.png"
+              class="player-control-icon"
+              alt=""
+            />
+          </div>
+
+          <div class="middle-player-playback-bar">
+            <span>00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              step="1"
+              class="progress-bar"
+            />
+            <span>1:17</span>
+          </div>
+        </div>
+
+        <div class="right-player">
+          <div class="player-icon-list">
+            <img src="Images/RI1.png" alt="" />
+            <img src="Images/RI2.png" alt="" />
+            <img src="Images/RI3.png" alt="" />
+            <img src="Images/RI4.png" alt="" />
+            <img src="Images/RI5.png" alt="" />
+            <input type="range" class="progress-bar1" />
+            <img src="Images/RI6.png" alt="" />
+            <img src="Images/RI7.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

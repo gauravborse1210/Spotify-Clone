@@ -1,0 +1,166 @@
+/* ************* */
+/* FOR LESS THAN 1000PX */
+/* ************* */
+
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 1475PX */
+/* ************* */
+
+@media (max-width: 1476px) {
+  .card {
+    width: 13rem;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-info {
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 1172PX */
+/* ************* */
+
+@media (max-width: 1172px) {
+  .card {
+    width: 12rem;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 1124PX */
+/* ************* */
+
+@media (max-width: 1124px) {
+  .card {
+    width: 11rem;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 1076PX */
+/* ************* */
+
+@media (max-width: 1076px) {
+  .sidebar {
+    width: 280px;
+
+    .card {
+      width: 10rem;
+    }
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 1016PX */
+/* ************* */
+
+@media (max-width: 1016px) {
+  .card {
+    width: 9rem;
+  }
+
+  .card-title {
+    font-size: 12px;
+  }
+
+  .card-info {
+    font-size: 0.6rem;
+    opacity: 0.7;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 919PX */
+/* ************* */
+
+@media (max-width: 919px) {
+  .sidebar {
+    width: 270px;
+  }
+
+  .card {
+    width: 15rem;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 902PX */
+/* ************* */
+
+@media (max-width: 902px) {
+  .card {
+    width: 12rem;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 806PX */
+/* ************* */
+
+@media (max-width: 902px) {
+  .card {
+    width: 11rem;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 774PX */
+/* ************* */
+
+@media (max-width: 774px) {
+  .card {
+    width: 10rem;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 742PX */
+/* ************* */
+
+@media (max-width: 774px) {
+  .card {
+    width: 9rem;
+  }
+}
+
+/* ************* */
+/* FOR LESS THAN 710PX */
+/* ************* */
+
+@media (max-width: 710px) {
+  .sidebar {
+    width: 240px;
+  }
+
+  .card {
+    width: 9rem;
+  }
+
+  .nav-anchor {
+    font-size: 13px;
+  }
+
+  .lib-img {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .icons i {
+    font-size: 1rem;
+  }
+
+  .box-p1 {
+    font-size: 14px;
+  }
+}
